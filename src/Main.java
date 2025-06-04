@@ -1,24 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        int input = 2;
-        do {
-            System.out.println("안녕하세요. 자판기입니다.");
+        int number = 4;
 
-            // 키입력 응용가능
+        String binaryString = Integer.toBinaryString(number);
 
-            switch(input) {
-                case 1:
-                    System.out.println("콜라");
-                    break;
-                case 2:
-                    System.out.println("사이다");
-                    break;
-                case 3:
-                    System.out.println("물");
-                    break;
-                default:
-                    System.out.println("잘못 고름.");
-            }
-        } while(input == 0);
+        System.out.println("Binary : " + binaryString );
     }
 }
