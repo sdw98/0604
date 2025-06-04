@@ -4,7 +4,7 @@ public class Main {
         do {
             System.out.println("안녕하세요. 자판기입니다.");
 
-            // 키입력
+            // 키입력 응용가능
 
             switch(input) {
                 case 1:
