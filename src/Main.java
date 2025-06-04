@@ -1,24 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        int age = 20;
-        boolean hasID = true;
+        int a = 10;
+        int b = 7;
 
-        if(age >= 18 && hasID) {
-            System.out.println("접속가능");
-        }
+        System.out.println("a == b : " + (a == b));
+        System.out.println("a != b : " + (a != b));
 
-        boolean isWeekend = false;
-        boolean isHoliday = true;
-
-        if (isWeekend || isHoliday) {
-            System.out.println("쉴 수 있습니다.");
-        }
-
-        boolean isRaining = true;
-        if(!isRaining) {
-            System.out.println("그냥 나가.");
-        } else {
-            System.out.println("우산 챙겨");
-        }
+        System.out.println("a > b : " + (a > b));
+        System.out.println("a < b : " + (a < b));
+        System.out.println("a >= 10 : " + ( a>= 10));
+        System.out.println(";b <= 5 : " + ( b <= 5));
     }
 }
