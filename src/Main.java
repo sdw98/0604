@@ -9,6 +9,7 @@ public class Main {
 
             if(b > 10000) {
                 a = false;
+                //break;
             }
         }
     }
